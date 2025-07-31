@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: poppinsregular;
+    src:url(../Fonts/Poppins-Regular.ttf);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+#navlinks{
+    color: black;
+    font-family: poppinsregular;
+    display: flex;
+    gap: 20px;
+}
+#homelink{
+    color: orangered;
+}
+.othernavlink{
+    color: black;
+}
+#blocks1{
+    display: flex;
+}
+#block1{
+    font-family: poppinsregular;
+    width: 750px;
+    margin: 50px 40px;
+}
+#blk1h2{
+    font-size: 80px;
+}
+#blk1p{
+    font-size: 20px;
+}
+#blk1a{
+    margin-left: 70px;
+    margin-top: 30px;
+    display: flex;
+    gap: 150px;
+}
+.blk1ai{
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#ai1{
+    background-color: orangered;
+    color: white;
+    font-family: poppinsregular;
+}
+#ai2{
+    background-color: rgb(50, 221, 50);
+    color: white;
+    font-family: poppinsregular;
+}
+#blocks2{
+    display:flex;
+    background-color: rgb(196, 247, 242);
+}
+#blocks2h2{
+    font-family: poppinsregular;
+    color: orangered;
+    font-size: 50px;
+    width: 500px;
+}
+span{
+    color: black;
+}
+#blocks22{
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+}
+#blocks2p{
+    font-family: poppinsregular;
+    font-size: 20px;
+    margin: 20px 20px;
+}
+#blkcs2a{
+    margin: 80px 20px;
+    display: flex;
+    border-radius: 20px;
+    background-color: orangered;
+    font-family: poppinsregular;
+    width: 160px;
+    justify-content: center;
+}
+#blkcs2ai{
+    color: white;
+    padding: 10px 20px;
+}
