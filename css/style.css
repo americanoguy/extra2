@@ -402,12 +402,170 @@ span{
 }
 #blk6 h2{
     font-family: tinosregular;
+    font-weight: 100;
     font-size: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#blk6b1 img{
+#blk6b1{
     margin: 40px auto;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+}
+#blk6b1 h3{
+    margin-top: 30px;
+    font-family: poppinsregular;
+}
+#blk6b1 p{
+    font-family: poppinsregular;
+}
+#blk6b2 p{
+    width: 524px;
+    margin: 20px auto;
+    font-family:poppinsregular;
+    text-align: center;
+    font-size: 20px;
+}
+#blk6b3{
+    display: flex;
+    justify-content: center;
+}
+#blk7main{
+    margin-top: 200px;
+    background-image: url(../images/BLK7BACKGROUND.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#blk7 h2{
+    font-family: tinosregular;
+    color: white;
+    font-weight: 100;
+    padding-top: 100px;
+    font-size: 80px;
+}
+#blk7 h3{
+    color: white;
+    font-size: 40px;
+    font-family: poppinsregular;
+    font-weight: 600;
+    margin-top: 50px;
+}
+#blk7 p{
+    color: white;
+    font-family: poppinsregular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%;
+}
+#blk7 span{
+    display: inline-block;
+    color: white;
+    font-family: poppinsregular;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 150px;
+}
+#blk7as{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+    justify-content: center;
+}
+#blk7a1{
+    background-color: rgb(218, 168, 7);
+    font-family: poppinsregular;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 120px;
+    padding: 20px 40px;
+}
+#blk7a2{
+    background-color: white;
+    font-family: poppinsregular;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 120px;
+    padding: 20px 40px;
+}
+footer{
+    background-color: #311F09;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-top: 50px;
+}
+#fb1{
+   width: 320px;
+   margin-left: 50px;
+}
+#fb1p{
+    margin-top: 40px;
+    color: white;
+    line-height: 40px;
+    font-family: poppinsregular;
+    font-size: 20px;
+}
+#fa{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#fb2{
+    height: 330px;
+    margin-left: 100px;
+}
+#fb2 h2{
     
+    color: goldenrod;
+    font-size: 30px;
+    font-family: poppinsregular;
+    margin-bottom: 50px;
+}
+#fb2 p{
+    font-size: 25px;
+    font-family: poppinsregular;
+    gap: 30px;
+    color: white;
+}
+#fb3{
+    margin-left: 100px;
+    height: 330px;
+}
+#fb3 h2{
+     color: goldenrod;
+    font-size: 30px;
+    font-family: poppinsregular;
+    margin-bottom: 50px;
+}
+#fb3 p{
+    font-size: 25px;
+    font-family: poppinsregular;
+    gap: 30px;
+    color: white;
+}
+#fb4{
+      margin-left: 100px;
+    height: 330px;
+    width: 280px;
+}
+#fb4 h2{
+     color: goldenrod;
+    font-size: 30px;
+    font-family: poppinsregular;
+    margin-bottom: 50px;
+}
+#fb4 p{
+    font-size: 25px;
+    font-family: poppinsregular;
+    gap: 30px;
+    color: white;
+}
+#Copyright{
+    background-color: #311F09;
+    display: flex;
+    justify-content: center;
 }
